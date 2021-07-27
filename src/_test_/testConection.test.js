@@ -1,4 +1,4 @@
-const sequelize = require('../config/postG')
+const sequelize = require('../database/sequelize')
 
 describe('teste conexcao',()=>{
     test('teste api',async ()=>{
@@ -9,4 +9,4 @@ describe('teste conexcao',()=>{
             console.error('Unable to connect to the database:', error);
         }
     })
-})
+}) 
