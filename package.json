@@ -1,0 +1,19 @@
+{
+  "name": "projeto_paciente",
+  "version": "1.0.0",
+  "description": "Uma api de Paciente completa com sequelize e postgreSQL",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daniel-Roch/Projeto_Paciente_API.git"
+  },
+  "author": "Daniel Roch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Daniel-Roch/Projeto_Paciente_API/issues"
+  },
+  "homepage": "https://github.com/Daniel-Roch/Projeto_Paciente_API#readme"
+}
