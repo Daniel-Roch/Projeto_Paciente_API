@@ -4,6 +4,8 @@
   "description": "Uma api de Paciente completa com sequelize e postgreSQL",
   "main": "server.js",
   "scripts": {
+    "dev": "nodemon ./src/server.js",
+    "start": "node ./src/server.js",
     "test": "jest"
   },
   "repository": {
@@ -15,5 +17,16 @@
   "bugs": {
     "url": "https://github.com/Daniel-Roch/Projeto_Paciente_API/issues"
   },
-  "homepage": "https://github.com/Daniel-Roch/Projeto_Paciente_API#readme"
+  "homepage": "https://github.com/Daniel-Roch/Projeto_Paciente_API#readme",
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "nodemon": "^2.0.12",
+    "supertest": "^6.1.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.6.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.6.5"
+  }
 }
