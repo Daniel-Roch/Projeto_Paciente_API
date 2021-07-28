@@ -1,6 +1,7 @@
 const Paciente = require("../models/Paciente");
 
 module.exports = app =>  {
+    //Mostrar Todos
     app.get('/paciente',async (req,res)=>{
         try{
             const row = await Paciente.findAndCountAll()
@@ -9,6 +10,7 @@ module.exports = app =>  {
             res.status(500).json(erro.message)
         }
     })
+    //adicionar
     app.post('/paciente',async (req,res)=>{
         try{
             await Paciente.create(req.body)
